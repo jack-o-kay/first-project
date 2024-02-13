@@ -1,5 +1,6 @@
-<div><input  [(ngModel)]="newItem"  placeholder="Add here"/>
-  <button (click)="addItem()">Add Item</button>
+<div class="space-b">
+  <input  [(ngModel)]="newItem"  placeholder="Add here"/>
+  <button (click)="addItem()">Add book title</button>
 </div>
 <ul>
   <li *ngFor="let item of items">{{ item }}</li>
